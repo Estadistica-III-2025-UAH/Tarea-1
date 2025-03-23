@@ -1,10 +1,27 @@
 # Tarea-1
 
-Resumen: En el Chile entre 2008 y 2020 se ha presenciado un aumento en las protestas, donde cada vez más se unen actores que aumenta los niveles conflictuales a través de las acciones de protesta. Para esto el gobierno a lo largo del tiempo emplea tácticas de represión que detengan las acciones de protesta. 
-Para saber, ¿Qué factores influyen en la existencia de heridos en protestas entre el periodo 2008-2020 en Chile? Se realizo una regresión logística, donde se utilizará la base de datos del observatorio de conflictos del COES. Donde se obtuvo como resultados que las regiones mas propensas a presentar heridos son la zona sur y metropolitana, mientras que otro factor que influiría seria el implementación de elementos disuasivos y el enfrentamiento de manifestantes contra fuerzas policiales.
+Objetivo:
+La tarea N°1 consiste en la creación de un archivo RMarkdown de algun tema que les sea interesante. Para esto, deben incorporar y explicar elementos claves para la creación de estos archivos, lo que permitirá crear informes que incluyan texto y códigos en R, facilitando la reproducibilidad.
 
-Las carpetas estan organizadas en:  
+Instrucciones:
 
-- input: Contiene el manual de codigos y la carpeta datos contiene los datos originales (Protest_Events_Dataset_2008_2020_v01) y los datos procesados (datos_proc). 
-- output: Contiene un archivo html y pdf que presenta el análisis.
-- R: Contiene el procesamiento de datos y el archivo Rmd.
+Para realizar la tarea deben incorporar los siguientes elementos en el archivo (Rmd.) creado:
+
+1.-Un encabezado (YAML) con el título: “Tarea N°1”. También deben incorporar aspectos formales, como su nombre, fecha, información institucional y del curso (nombre del profesor y ayudante). Este encabezado debe tener una salida en html ubicado en (output)
+
+2.- Tres subtítulos que separarán los dos procedimientos que deben contenerse en la entrega (## 1. Carga de paquetes, ## 2. flujo y ## 3. Descriptivos).
+
+3.-Chunks:
+En el apartado ## 1. Carga de paquetes debes cargar uno de los paquetes más importantes para el curso. El chunk *no se debe ver* en el documento final, pero si en tu .Rmd.
+
+Debes explicar:
+-El nombre del paquete cargado
+-Para qué puede utilizarse
+
+En el apartado ## 2. Flujo debes cargar la imagen flujo.png (ya sea con formato markdown o en un chunk) y explicar qué elementos van dentro de las siguientes carpetas
+-*input*:
+-*R*:
+-*output*:
+-Para qué sirve el archivo con extensión .Rproj (que es lo mismo que el Tipo Rproject)
+
+4.-En el apartado ## 3. Descriptivos deben incorporar una tabla simple de un tema interesante para ustedes, ademas deben agregar una imagen llamada grafico01.jpg (es una imágen de un grafico a tu elección). Esta imagen la puedes incorporar en formato Markdown o con chunks. Deja una breve explicación de ese gráfico y tabla, intenta utilizar lenguaje Markdown.
