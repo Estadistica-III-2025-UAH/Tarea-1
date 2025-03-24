@@ -19,6 +19,7 @@ Debes explicar:
 -Para qué puede utilizarse
 
 En el apartado ## 2. Flujo debes cargar la imagen flujo.png (ya sea con formato markdown o en un chunk) y explicar qué elementos van dentro de las siguientes carpetas
+
 -*input*:
 -*R*:
 -*output*:
